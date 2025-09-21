@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assignment #2 - My Webpage</title>
+
+  <!-- Task 2: Internal CSS -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+    header, footer {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    /* Task 4: Element selector */
+    p {
+      font-size: 16px;
+    }
+    /* Task 4: Class selector */
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+    /* Task 4: ID selector */
+    #main-heading {
+      color: darkblue;
+      font-size: 32px;
+    }
+  </style>
+
+  <!-- Task 3: External CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Task 6: Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+  <!-- Task 7: Divs (header, main, footer) -->
+  <header>
+    <h1 id="main-heading">Tazdarbay Meiirzhan</h1>
+    <p class="highlight">My First Webpage with CSS</p>
+  </header>
+
+  <main>
+    <!-- Task 1: Inline CSS -->
+    <p style="color: blue;">This paragraph uses inline CSS to be blue.</p>
+
+    <h2>About Me</h2>
+    <p>I am a student of group IT-2408.</p>
+
+    <h3>My hobbies</h3>
+    <ol>
+      <li>Chess</li>
+      <li>Robotics</li>
+      <li>Gym</li>
+    </ol>
+
+    <h3>My favorite sites</h3>
+    <ul>
+      <li><a href="https://monkeytype.com" target="_blank">Typing practice</a></li>
+      <li><a href="https://chess.com" target="_blank">Play Chess Online</a></li>
+    </ul>
+
+    <h3>Photo</h3>
+    <img src="photo.jpg" alt="My photo" width="200">
+
+    <h3>Schedule</h3>
+    <table class="schedule">
+      <thead>
+        <tr><th>Subject</th><th>Day</th><th>Time</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Analytic geometry</td><td>Monday</td><td>10:00</td></tr>
+        <tr><td>Web1</td><td>Wednesday</td><td>14:00</td></tr>
+        <tr><td>Physical education</td><td>Thursday</td><td>09:00</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Mood</h3>
+    <p>Morning &#128512;</p>
+    <p>At university &#128218;</p>
+    <p>At gym &#127947;</p>
+
+    <h3>Form</h3>
+    <form>
+      <label>Name: <input type="text" name="name" required></label><br><br>
+      <label>Email: <input type="email" name="email" required></label><br><br>
+      <label>Favorite color: <input type="color" name="favcolor"></label><br><br>
+      <button type="submit">Submit</button>
+    </form>
+
+    <h3>Box Model Example</h3>
+    <div class="box-example">This is a box model test.</div>
+
+    <h3>Positioning</h3>
+    <div class="static-box">Static Box</div>
+    <div class="relative-box">Relative Box</div>
+    <div class="absolute-box">Absolute Box</div>
+
+    <h3>Float and Clear</h3>
+    <div class="float-left">Box Left</div>
+    <div class="float-right">Box Right</div>
+    <div class="clear-box">This box clears floats.</div>
+  </main>
+
+  <footer>
+    <p>© 2025 Meiirzhan</p>
+  </footer>
+</body>
+</html>
