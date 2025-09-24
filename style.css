@@ -1,0 +1,106 @@
+/* Task 3: External CSS file */
+* {
+    font-size: 20px;
+}
+/* General styles */
+body {
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  color: darkred;
+  text-decoration: none;
+  font-size: 0.5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Task 5: Class vs ID already shown in HTML */
+
+/* Task 7: Table styling */
+table.schedule {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table.schedule th, table.schedule td {
+  border: 1px solid #666;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Task 8: Box model */
+.box-example {
+  border: 2px solid green;
+  margin: 20px;
+  padding: 15px;
+  background-color: #e0ffe0;
+  width: 50%;
+}
+
+/* Task 9: Positioning */
+.static-box {
+  background: lightgray;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.relative-box {
+  position: relative;
+  left: 20px;
+  top: 10px;
+  background: lightblue;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 200px;
+  right: 20px;
+  background: pink;
+  padding: 10px;
+  width: 120px;
+}
+
+/* Task 10: CSS Sizing */
+h2 {
+  font-size: 2em;   /* relative to parent font size */
+}
+
+img {
+  max-width: 30%;
+  height: auto;
+}
+
+p {
+  font-size: 1rem;  /* relative to root font size */
+}
+
+/* Task 11: Float and Clear */
+.float-left {
+  float: left;
+  width: 40%;
+  background: #ddd;
+  padding: 10px;
+  margin: 10px;
+}
+
+.float-right {
+  float: right;
+  width: 40%;
+  background: #bbb;
+  padding: 10px;
+  margin: 10px;
+}
+
+.clear-box {
+  clear: both;
+  background: #eee;
+  padding: 10px;
+  margin-top: 20px;
+}
